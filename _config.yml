@@ -1,0 +1,12 @@
+# Files that live in this repository for the agents who work here, and that
+# should never be served to a reader.
+#
+# GitHub Pages builds this site with Jekyll by default. Jekyll renders Markdown
+# into pages and copies whatever it does not exclude, which is why AGENTS.md was
+# reachable at /AGENTS, /AGENTS.html and /AGENTS.md.
+#
+# This list REPLACES Jekyll's built-in exclude list rather than adding to it.
+# If a Gemfile, node_modules or vendor/ ever appears here, name it below too.
+exclude:
+  - AGENTS.md
+  - CLAUDE.md

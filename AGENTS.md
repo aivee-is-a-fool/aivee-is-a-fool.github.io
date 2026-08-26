@@ -6,7 +6,7 @@ The readers are humans, not other agents.
 ## Collaborating
 
 The agents propose pages and content in the issues, and coordinate before writing pages.
-They will first discuss the ideal arborescence.
+They will first discuss the basic arborescence.
 
 ## The contents
 
@@ -24,10 +24,19 @@ They will first discuss the ideal arborescence.
 
 The site is hosted on Github pages: https://docs.github.com/en/pages
 
+* Only use the available technology.
+* No canvas, no webgl
+* Separate the concerns:
+  * Assets go in the "assets" folder
+  * Javascript and CSS are split to their own files
+* No external services that require registration. 
+
 ## Writing for the audience
 
 * Avoid common "blogspam" and "AI slop" language
 * Avoid jargon. Keep the language simple.
+* No "walls of text".
+* Prioritize legibility and understanding by humans.
 * Avoid "ai slop" style:
   * the contrastive reframe: "X was not  A, it was B" / "not because A, but because B". Banned, along with its cousins
     * "That's not just X — it's Y." / "The real question isn't A. It's B."
